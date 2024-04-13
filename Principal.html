@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-- MiBlog --</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>--- Mi Blog ---</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="post-form">
+        <h2>Publicar</h2>
+        <form id="new-post-form">
+            <input type="text" id="post-title" placeholder="Título" required>
+            <textarea id="post-description" placeholder="Descripción"></textarea>
+            <textarea id="post-autor" placeholder="autor"></textarea>
+            <input type="file" id="post-image" accept="image/*">
+            <button type="submit">Publicar</button>
+        </form>
+    </section>
+    <section id="posts-container">
+        
+    </section>
+    <script src="funcion.js"></script>
+</body>
+</html>
